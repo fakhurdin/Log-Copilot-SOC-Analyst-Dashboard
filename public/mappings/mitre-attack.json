@@ -1,0 +1,98 @@
+{
+  "techniques": {
+    "T1566": {
+      "name": "Phishing",
+      "tactic": "Initial Access",
+      "keywords": ["phishing", "malicious email", "suspicious attachment", "email threat"],
+      "description": "Adversaries may send phishing messages to gain access to victim systems."
+    },
+    "T1059": {
+      "name": "Command and Scripting Interpreter",
+      "tactic": "Execution",
+      "keywords": ["powershell", "cmd.exe", "bash", "script execution", "command line"],
+      "description": "Adversaries may abuse command and script interpreters to execute commands."
+    },
+    "T1055": {
+      "name": "Process Injection",
+      "tactic": "Defense Evasion",
+      "keywords": ["process injection", "dll injection", "reflective dll", "process hollowing"],
+      "description": "Adversaries may inject code into processes to evade detection."
+    },
+    "T1003": {
+      "name": "OS Credential Dumping",
+      "tactic": "Credential Access",
+      "keywords": ["credential dumping", "lsass", "sam database", "password hash"],
+      "description": "Adversaries may attempt to dump credentials to obtain account login information."
+    },
+    "T1083": {
+      "name": "File and Directory Discovery",
+      "tactic": "Discovery",
+      "keywords": ["file discovery", "directory enumeration", "dir", "ls", "find"],
+      "description": "Adversaries may enumerate files and directories to find information."
+    },
+    "T1071": {
+      "name": "Application Layer Protocol",
+      "tactic": "Command and Control",
+      "keywords": ["http", "https", "dns", "web traffic", "c2 communication"],
+      "description": "Adversaries may communicate using application layer protocols."
+    },
+    "T1041": {
+      "name": "Exfiltration Over C2 Channel",
+      "tactic": "Exfiltration",
+      "keywords": ["data exfiltration", "c2 channel", "command and control", "data theft"],
+      "description": "Adversaries may steal data by exfiltrating it over an existing C2 channel."
+    },
+    "T1070": {
+      "name": "Indicator Removal on Host",
+      "tactic": "Defense Evasion",
+      "keywords": ["log clearing", "event log deletion", "file deletion", "artifact removal"],
+      "description": "Adversaries may delete or alter generated artifacts on a host system."
+    },
+    "T1210": {
+      "name": "Exploitation of Remote Services",
+      "tactic": "Lateral Movement",
+      "keywords": ["remote exploitation", "service vulnerability", "remote code execution", "lateral movement"],
+      "description": "Adversaries may exploit remote services to achieve lateral movement."
+    },
+    "T1018": {
+      "name": "Remote System Discovery",
+      "tactic": "Discovery",
+      "keywords": ["network discovery", "ping", "arp", "network scanning", "host discovery"],
+      "description": "Adversaries may attempt to get a listing of other systems by IP address."
+    }
+  },
+  "tactics": {
+    "Initial Access": {
+      "description": "Techniques used to gain an initial foothold within a network",
+      "color": "#ff6b6b"
+    },
+    "Execution": {
+      "description": "Techniques that result in adversary-controlled code running on a local or remote system",
+      "color": "#4ecdc4"
+    },
+    "Defense Evasion": {
+      "description": "Techniques adversaries use to avoid detection throughout their compromise",
+      "color": "#45b7d1"
+    },
+    "Credential Access": {
+      "description": "Techniques for stealing credentials like account names and passwords",
+      "color": "#f9ca24"
+    },
+    "Discovery": {
+      "description": "Techniques an adversary may use to gain knowledge about the system and internal network",
+      "color": "#6c5ce7"
+    },
+    "Command and Control": {
+      "description": "Techniques that adversaries may use to communicate with systems under their control",
+      "color": "#a29bfe"
+    },
+    "Exfiltration": {
+      "description": "Techniques that adversaries may use to steal data from your network",
+      "color": "#fd79a8"
+    },
+    "Lateral Movement": {
+      "description": "Techniques that adversaries use to enter and control remote systems on a network",
+      "color": "#00b894"
+    }
+  }
+}
