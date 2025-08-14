@@ -1,59 +1,63 @@
 # 🛡️ Log Copilot - SOC Analyst Dashboard
 
-[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/fakhurdin/Log-Copilot-SOC-Analyst-Dashboard)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/fakhurdin/Log-Copilot-SOC-Analyst-Dashboard)  
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)  
 [![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB)](https://reactjs.org/)
 
-A **privacy-first, AI-powered SOC analyst dashboard** for advanced log analysis, anomaly detection, IOC extraction, and MITRE ATT&CK mapping. All processing happens locally in your browser - no data ever leaves your device.
+A **privacy-first, AI-powered SOC analyst dashboard** for advanced log analysis, anomaly detection, IOC extraction, and MITRE ATT&CK mapping. All processing happens **locally in your browser** — no data leaves your device.  
+
+**Live Demo:** [https://log-copilot-soc-analyst-dashboard-w.vercel.app/](https://log-copilot-soc-analyst-dashboard-w.vercel.app/)
+
+---
 
 ## 🌟 Features
 
-- **🔒 100% Privacy-First**: All analysis happens locally in your browser
-- **🤖 AI-Powered Analysis**: Advanced anomaly detection using machine learning
-- **🔍 IOC Extraction**: Automatically extract and classify indicators of compromise
-- **🎯 MITRE ATT&CK Mapping**: Map suspicious activities to attack techniques
-- **📊 Professional Reports**: Generate PDF and Markdown reports
-- **⚡ Real-time Processing**: Live progress tracking during analysis
-- **📱 Responsive Design**: Works perfectly on desktop and mobile
-- **🎨 Professional UI**: Modern, security-focused interface
+- **🔒 100% Privacy-First:** Local analysis, no external data sharing  
+- **🤖 AI-Powered Analysis:** Anomaly detection using ML models  
+- **🔍 IOC Extraction:** Identify and classify indicators of compromise  
+- **🎯 MITRE ATT&CK Mapping:** Map suspicious activity to attack techniques  
+- **📊 Reports:** Export findings in PDF or Markdown  
+- **⚡ Real-time Processing:** Live progress during analysis  
+- **📱 Responsive Design:** Works on desktop and mobile  
+- **🎨 Modern UI:** Professional, security-focused interface  
 
-## 🚀 Live Demo
-
-**[Try Log Copilot Online](https://log-copilot.vercel.app)**
+---
 
 ## 📋 Supported Log Formats
 
-| Format | Description | Example Files |
-|--------|-------------|---------------|
+| Format | Description | Example |
+|--------|-------------|---------|
 | **Sysmon** | Windows system monitoring events | Process creation, network connections |
 | **Zeek** | Network monitoring logs | DNS, HTTP, connection logs |
-| **Windows Events** | Standard Windows event logs | Security, system, application events |
-| **AWS CloudTrail** | AWS API and service logs | API calls, service events |
-| **Generic CSV/TSV** | Any structured log format | Custom log formats |
+| **Windows Events** | Standard Windows logs | Security, system, application events |
+| **AWS CloudTrail** | AWS API/service logs | API calls, events |
+| **Generic CSV/TSV** | Any structured log | Custom log formats |
 
-## 🛠️ Quick Start
+---
 
-### Option 1: Try Online (Recommended)
-1. Visit **[https://log-copilot.vercel.app](https://log-copilot.vercel.app)**
-2. Click "Try with Sample Logs" to see it in action
-3. Upload your own log files for analysis
+## 🚀 Quick Start
 
-### Option 2: Local Development
+### 1️⃣ Online (Recommended)
+1. Visit the [Live Demo](https://log-copilot-soc-analyst-dashboard-w.vercel.app/)  
+2. Click **Try with Sample Logs**  
+3. Upload your own logs (CSV, JSON, TSV, TXT)  
+
+### 2️⃣ Local Development
 
 ```bash
-# Clone the repository
+# Clone the repo
 git clone https://github.com/fakhurdin/Log-Copilot-SOC-Analyst-Dashboard.git
 cd Log-Copilot-SOC-Analyst-Dashboard
 
 # Install dependencies
 npm install
 
-# Start development server
+# Start dev server
 npm run dev
 
 # Open http://localhost:8080 in your browser
-```
+
 
 ### Option 3: Windows Quick Start
 1. Download the repository
